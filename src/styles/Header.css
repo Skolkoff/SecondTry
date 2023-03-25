@@ -1,0 +1,27 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  }
+  
+  .header__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .header__navigation ul {
+    display: flex;
+  }
+  
+  .header__navigation li {
+    margin-left: 20px;
+  }
+  
+  .header__navigation Link {
+    font-weight: bold;
+    color:#333;
+  }

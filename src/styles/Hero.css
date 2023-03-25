@@ -1,0 +1,26 @@
+/* Hero styles */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #363535;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }

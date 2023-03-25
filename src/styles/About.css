@@ -1,0 +1,39 @@
+/* About section styles */
+
+.about {
+    background-color: #f7f7f7;
+    padding: 80px 20px;
+  }
+  
+  .about__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about__text {
+    flex-basis: 50%;
+    margin-right: 40px;
+  }
+  
+  .about__image {
+    flex-basis: 40%;
+  }
+  
+  .about__image img {
+    max-width: 100%;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
